@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Hauteur de la vue */
+    margin: 0; /* Retirer les marges par défaut */
+}
+
+section{
+    width: 600px;
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
+div{
+    background-color: rgb(41, 41, 41);
+    transition: background-color ease-in-out 0.5s;
+}
+
+.orange{
+    background-color: orange;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.red{
+    background-color: red;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.blue{
+    background-color: cornflowerblue;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.purple{
+    background-color: blueviolet;
+    transition: background-color ease-in-out 0.5s;
+}
+
+.green{
+    background-color: #2cff05;
+    transition: background-color ease-in-out 0.5s;
+}
